@@ -1,220 +1,141 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Navigation Example</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="css/styles.min.css"
-    />
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Navigation Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+    rel="stylesheet" />
+
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest" />
+</head>
 
-  <body>
-    <div id="headerWrapper">
-      <header>
-        <a href="index.html">
-          <img
-            src="images/logo1x.png"
-            alt="logo"
-            width="51"
-            height="51"
-            srcset="
+
+
+<body>
+  <div id="headerWrapper">
+    <header>
+      <a href="index.html">
+        <img src="images/logo1x.png" alt="logo" width="51" height="51" srcset="
               images/logo1x.png 1x,
               images/logo2x.png 2x,
               images/logo3x.png 3x
-            "
-          />
-        </a>
-        <span>Surreal Space</span>
-      </header>
-      <div>
-        <a class="nav-phone" href="tel:+18445551234" aria-label="Call us">
-          <span class="phone-icon">📞</span>
-          <span class="phone-text">(844) 555-1234</span>
-        </a>
-      </div>
+            " />
+      </a>
+      <span>Surreal Space</span>
+    </header>
+    <div>
+      <a class="nav-phone" href="tel:+18445551234" aria-label="Call us">
+        <span class="phone-icon">📞</span>
+        <span class="phone-text">(844) 555-1234</span>
+      </a>
     </div>
-    <!-- end header wrapper -->
+  </div>
+  <!-- end header wrapper -->
 
-    <div id="navWrapper">
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li class="active"><a href="#">Gallery</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <!-- end nav wrapper -->
+  <div id="navWrapper">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li class="active"><a href="#">Gallery</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- end nav wrapper -->
 
-    <div id="mainWrapper">
-      <main>
-        <h1>Gallery</h1>
-        <div id="gallery-container">
-          <div class="gallery-item">
-            <img
-              src="images/gallery_1.webp"
-              alt="gallery image 1"
-              width="500"
-              height="250"
-              loading="lazy"
-            />
-            <p class="picture-title">Cosmic Muse &bull; Feb 2026</p>
-          </div>
-
-          <div class="gallery-item">
-            <img
-              src="images/gallery_2.webp"
-              alt="gallery image 2"
-              width="500"
-              height="250"
-              loading="lazy"
-            />
-            <p class="picture-title">Peacock Bloom &bull; Jan 2026</p>
-          </div>
-
-          <div class="gallery-item">
-            <img
-              src="images/gallery_3.webp"
-              alt="gallery image 3"
-              width="500"
-              height="250"
-              loading="lazy"
-            />
-            <p class="picture-title">Cubist Faces &bull; Dec 2025</p>
-          </div>
-
-          <div class="gallery-item">
-            <img
-              src="images/gallery_4.webp"
-              alt="gallery image 4"
-              width="500"
-              height="250"
-              loading="lazy"
-            />
-            <p class="picture-title">Fragmented Mind &bull; Nov 2025</p>
-          </div>
-
-          <div class="gallery-item">
-            <img
-              src="images/gallery_5.webp"
-              alt="gallery image 5"
-              width="500"
-              height="250"
-              loading="lazy"
-            />
-            <p class="picture-title">The Thinker Elephant &bull; Oct 2025</p>
-          </div>
-
-          <div class="gallery-item">
-            <img
-              src="images/gallery_6.webp"
-              alt="gallery image 6"
-              width="500"
-              height="250"
-              loading="lazy"
-            />
-            <p class="picture-title">Cosmic Eye &bull; Sep 2025</p>
-          </div>
-
-          <div class="gallery-item">
-            <img
-              src="images/gallery_7.webp"
-              alt="gallery image 7"
-              width="500"
-              height="250"
-              loading="lazy"
-            />
-            <p class="picture-title">City in Hand &bull; Aug 2025</p>
-          </div>
-
-          <div class="gallery-item">
-            <img
-              src="images/gallery_8.webp"
-              alt="gallery image 8"
-              width="500"
-              height="250"
-              loading="lazy"
-            />
-            <p class="picture-title">Mystic Forest &bull; Jul 2025</p>
-          </div>
-
-          <div class="gallery-item">
-            <img
-              src="images/gallery_9.webp"
-              alt="gallery image 9"
-              width="500"
-              height="250"
-              loading="lazy"
-            />
-            <p class="picture-title">Blue Jay Abstract &bull; Jun 2025</p>
-          </div>
-
-          <div class="gallery-item">
-            <img
-              src="images/gallery_10.webp"
-              alt="gallery image 10"
-              width="500"
-              height="250"
-              loading="lazy"
-            />
-            <p class="picture-title">Artist’s Tools &bull; May 2025</p>
-          </div>
-
-          <div class="gallery-item">
-            <img
-              src="images/gallery_11.webp"
-              alt="gallery image 11"
-              width="500"
-              height="250"
-              loading="lazy"
-            />
-            <p class="picture-title">Hands of Creation &bull; Apr 2025</p>
-          </div>
-
-          <div class="gallery-item">
-            <img
-              src="images/gallery_12.webp"
-              alt="gallery image 12"
-              width="500"
-              height="250"
-              loading="lazy"
-            />
-            <p class="picture-title">Silent Companions &bull; Mar 2025</p>
-          </div>
+  <div id="mainWrapper">
+    <main>
+      <h1>Gallery</h1>
+      <div id="gallery-container">
+        <div class="gallery-item">
+          <img src="images/gallery_1.webp" alt="gallery image 1" width="500" height="250" loading="lazy" />
+          <p class="picture-title">Cosmic Muse &bull; Feb 2026</p>
         </div>
-      </main>
-    </div>
-    <!-- end main wrapper -->
 
-    <div id="footerWrapper">
-      <footer>
-        <p>
-          Copyright &copy; 2025 Design Thinking Inc. All rights reserved.
-          <br />
-          <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> |
-          <a href="#">Clients</a>
-        </p>
-      </footer>
-    </div>
-    <!-- end footer wrapper -->
-  </body>
+        <div class="gallery-item">
+          <img src="images/gallery_2.webp" alt="gallery image 2" width="500" height="250" loading="lazy" />
+          <p class="picture-title">Peacock Bloom &bull; Jan 2026</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/gallery_3.webp" alt="gallery image 3" width="500" height="250" loading="lazy" />
+          <p class="picture-title">Cubist Faces &bull; Dec 2025</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/gallery_4.webp" alt="gallery image 4" width="500" height="250" loading="lazy" />
+          <p class="picture-title">Fragmented Mind &bull; Nov 2025</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/gallery_5.webp" alt="gallery image 5" width="500" height="250" loading="lazy" />
+          <p class="picture-title">The Thinker Elephant &bull; Oct 2025</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/gallery_6.webp" alt="gallery image 6" width="500" height="250" loading="lazy" />
+          <p class="picture-title">Cosmic Eye &bull; Sep 2025</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/gallery_7.webp" alt="gallery image 7" width="500" height="250" loading="lazy" />
+          <p class="picture-title">City in Hand &bull; Aug 2025</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/gallery_8.webp" alt="gallery image 8" width="500" height="250" loading="lazy" />
+          <p class="picture-title">Mystic Forest &bull; Jul 2025</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/gallery_9.webp" alt="gallery image 9" width="500" height="250" loading="lazy" />
+          <p class="picture-title">Blue Jay Abstract &bull; Jun 2025</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/gallery_10.webp" alt="gallery image 10" width="500" height="250" loading="lazy" />
+          <p class="picture-title">Artist’s Tools &bull; May 2025</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/gallery_11.webp" alt="gallery image 11" width="500" height="250" loading="lazy" />
+          <p class="picture-title">Hands of Creation &bull; Apr 2025</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/gallery_12.webp" alt="gallery image 12" width="500" height="250" loading="lazy" />
+          <p class="picture-title">Silent Companions &bull; Mar 2025</p>
+        </div>
+      </div>
+    </main>
+  </div>
+  <!-- end main wrapper -->
+
+  <div id="footerWrapper">
+    <footer>
+      <p>
+        Copyright &copy; 2025 Design Thinking Inc. All rights reserved.
+        <br />
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> |
+        <a href="#">Clients</a>
+      </p>
+    </footer>
+  </div>
+  <!-- end footer wrapper -->
+</body>
+
 </html>
