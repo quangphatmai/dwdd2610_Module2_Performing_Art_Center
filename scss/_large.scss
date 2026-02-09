@@ -1,0 +1,54 @@
+header,
+nav,
+main,
+#headerWrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.nav-phone {
+  color: #0a58ca;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+  margin-right: 1rem;
+}
+
+.phone-text {
+  display: inline;
+  font-size: 1.2rem;
+}
+
+.phone-icon {
+  display: none;
+  font-size: 1.2rem;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+
+/* --------------------------- MAIN --------------------------- */
+main {
+  #gallery-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 1rem $gutter;
+  }
+} // end main
+
+footer {
+  font-size: 1.1rem;
+} // end footer

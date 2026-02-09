@@ -1,0 +1,147 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*  Apply a natural box layout model to all elements  */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+} // end all elements
+
+/* --------------------------- BODY --------------------------- */
+body {
+  font-family: $defaultFont;
+  font-weight: $lightWeight;
+  min-width: 320px;
+}
+
+/* --------------------------- HEADER --------------------------- */
+#headerWrapper {
+  border-bottom: 1px solid $greyColor;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.phone-icon {
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.nav-phone {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: $primaryColor;
+  text-decoration: none;
+  font-weight: 500;
+  justify-content: space-between;
+}
+
+.phone-text {
+  display: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0;
+  span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: $primaryColor;
+  }
+} // end header
+
+/* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
+
+#navWrapper {
+  background-color: $primaryColor;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0 8px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li.active {
+  background-color: #0d313a;
+  border-radius: 8px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 16px 12px;
+  text-decoration: none;
+  width: 100%;
+  color: white;
+}
+
+/* --------------------------- MAIN --------------------------- */
+main {
+  h1 {
+    padding: 0 $gutter 0 $gutter;
+    font-size: 1.5rem;
+    color: $secondaryColor;
+  }
+  p {
+    padding: 0.5rem $gutter;
+    color: #333;
+    line-height: $leading;
+  }
+
+  #gallery-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $gutter;
+    padding: 1rem $gutter;
+  }
+
+  #gallery-container .gallery-item {
+    background-color: $accentColor;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .gallery-item p {
+    text-align: center;
+    font-size: 1rem;
+    background-color: $accentColor;
+    color: white;
+    margin: 0;
+    padding: 0.8rem;
+    font-weight: 500;
+  }
+} // end main
+
+/* --------------------------- FOOTER --------------------------- */
+#footerWrapper {
+  background-color: $primaryColor;
+} // end footer wrapper
+
+footer {
+  word-spacing: 2px;
+  font-size: 0.85rem;
+  padding: 1rem $gutter;
+  color: white;
+  text-align: center;
+  line-height: $leading;
+  a {
+    color: white;
+  }
+} // end footer

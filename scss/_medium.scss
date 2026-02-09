@@ -1,0 +1,68 @@
+#headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.nav-phone {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #0a58ca;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.phone-icon {
+  display: none;
+  font-size: 1.2rem;
+}
+
+.phone-text {
+  display: inline;
+  font-size: 1.1rem;
+}
+
+.nav-phone:hover {
+  text-decoration: underline;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 12px;
+}
+
+nav ul li {
+  margin: 8px 0;
+}
+
+nav ul li a {
+  padding: 12px 8px;
+  font-size: 1rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline 2px $greyColor;
+}
+
+/* --------------------------- MAIN --------------------------- */
+main {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  #gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: $gutter;
+    padding: 1rem $gutter;
+  }
+} // end main
