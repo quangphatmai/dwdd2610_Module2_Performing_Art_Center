@@ -336,7 +336,7 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
-  color: #26b170;
+  color: #1f7f55;
   text-decoration: none;
   font-weight: 500;
   justify-content: space-between;
@@ -355,12 +355,12 @@ header {
 header span {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #26b170;
+  color: #1f7f55;
 }
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
 #navWrapper {
-  background-color: #26b170;
+  background-color: #1f7f55;
 }
 
 nav ul {
@@ -424,7 +424,7 @@ main .gallery-item p {
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
-  background-color: #26b170;
+  background-color: #1f7f55;
 }
 
 footer {
